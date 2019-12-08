@@ -7,7 +7,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primaryColor: Colors.blue), //TODO: figure out the colors
+      theme: ThemeData(primaryColor: Colors.blue,
+        textTheme: Theme.of(context).textTheme.apply(
+          fontFamily: 'Rancho'
+        )
+      ), //TODO: figure out the colors
       home: HomeScreen(),
     );
   }
