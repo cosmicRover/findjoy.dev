@@ -22,7 +22,7 @@ class IntroContainer extends StatelessWidget {
             children: <Widget>[
               SocialLinksRow(),
               CustomTextWidget('$_introText1', 40.0, _colors.joyBlue),
-              CustomTextWidget(_introText2, 32.0, _colors.joyBlue)
+              CustomTextWidget(_introText2, 30.0, _colors.joyBlue)
             ],
           ),
         ),

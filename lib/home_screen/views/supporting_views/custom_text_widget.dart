@@ -10,10 +10,13 @@ class CustomTextWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text("$_text",
-        style: GoogleFonts.oswald(
-            textStyle: Theme.of(context).textTheme.headline4,
-            fontSize: _size,
-            color: _color));
+    return Align(
+      alignment: Alignment.centerLeft,
+      child: Text("$_text",
+          style: GoogleFonts.oswald(
+              textStyle: Theme.of(context).textTheme.headline4,
+              fontSize: _size,
+              color: _color)),
+    );
   }
 }

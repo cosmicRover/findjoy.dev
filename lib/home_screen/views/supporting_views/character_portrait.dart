@@ -12,7 +12,6 @@ class CharacterPortrait extends StatelessWidget {
             child: Image.asset(
               "assets/pics/wave.png",
               height: 500.0,
-              repeat: ImageRepeat.repeatX,
               fit: BoxFit.cover,
             ),
           ),
