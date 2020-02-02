@@ -5,9 +5,21 @@ import 'package:findjoy/home_screen/view_model/home_screen_view_model.dart';
 import 'package:findjoy/home_screen/views/supporting_views/character_portrait.dart';
 import 'package:findjoy/home_screen/views/supporting_views/intro_container.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
+  @override
+  _HomeScreenState createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
   final AppColors _colors = AppColors();
   final HomeScreenViewModel _viewModel = HomeScreenViewModel();
+
+  @override
+  void dispose() {
+    _viewModel.dispose();
+    debugPrint("dispose being called");
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +34,7 @@ class HomeScreen extends StatelessWidget {
         } else {
           return ListView(
             children: <Widget>[
-              CharacterPortrait(),
+              CharacterPortrait(snapshot.data.characterPortraitBackgroundAsset),
               IntroContainer(_colors, "${snapshot.data.intro1}",
                   "${snapshot.data.intro2}"),
             ],

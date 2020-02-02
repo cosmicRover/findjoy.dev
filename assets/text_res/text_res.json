@@ -1,7 +1,12 @@
 {
-  "intro1": "But first, introductions are in order!",
-  "intro2": "Hello, my name is Joy Paul.",
+  "character_portrait_background_asset": "assets/pics/combined_fixed.png",
+  "character_portrait_asset": "assets/pics/joy.png",
+  "intro1": "Hello!",
+  "intro2": "My name is Joy Paul, and I'm a CS graduate student at Queens College. I love building software! I am experienced in flutter, swift, python, and kotlin. Listed below are some of my notable works.",
   "project1": "Project 1 text",
   "project2": "Project 2 text",
-  "project3": "Project 3 text"
+  "project3": "Project 3 text",
+  "project1_asset_path": "to-be_added",
+  "project2_asset_path": "to-be_added",
+  "project3_asset_path": "to-be_added"
 }
