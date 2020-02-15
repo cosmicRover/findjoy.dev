@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
           canvasColor: _colors.joyWhite,
+
           ///TODO: download font into asset folder
           textTheme: TextTheme(
               headline4: GoogleFonts.oswald(

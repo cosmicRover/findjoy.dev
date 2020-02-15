@@ -43,8 +43,8 @@ class HomeScreenDataModel {
         project1: json['project1'],
         project2: json['project2'],
         project3: json['project3'],
-        project1AssetPath: json[''],
-        project2AssetPath: json[''],
-        project3AssetPath: json['']);
+        project1AssetPath: json['project1_asset_path'],
+        project2AssetPath: json['project2_asset_path'],
+        project3AssetPath: json['project3_asset_path']);
   }
 }
