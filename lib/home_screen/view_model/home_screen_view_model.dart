@@ -2,11 +2,11 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:findjoy/home_screen/model/home_screen_data_model.dart';
-import 'package:findjoy/home_screen/view_model/abstract_home_screen_view_model.dart';
+import 'package:findjoy/home_screen/view_model/abstract_view_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
-class HomeScreenViewModel implements AbstractHomeScreenViewModel {
+class HomeScreenViewModel implements AbstractViewModel {
   HomeScreenViewModel() {
     _loadJson().then((value) {
       final _response = json.decode(value);

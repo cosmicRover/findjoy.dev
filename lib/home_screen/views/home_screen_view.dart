@@ -41,18 +41,21 @@ class _HomeScreenState extends State<HomeScreen> {
               ProjectContainer(
                   "${snapshot.data.project2AssetPath}",
                   "${snapshot.data.project2}",
+                  snapshot.data.title2,
                   _colors.joyBlue,
                   _colors.joyWhite,
                   350.0),
               ProjectContainer(
                   "${snapshot.data.project1AssetPath}",
                   "${snapshot.data.project1}",
+                  snapshot.data.title1,
                   _colors.joyWhite,
                   _colors.joyBlue,
-                  250),
+                  350),
               ProjectContainer(
                   "${snapshot.data.project3AssetPath}",
                   "${snapshot.data.project3}",
+                  snapshot.data.title3,
                   _colors.joyBlue,
                   _colors.joyWhite,
                   350)

@@ -14,6 +14,9 @@ class HomeScreenDataModel {
   final String characterPortraitAsset;
   final String intro1;
   final String intro2;
+  final String title1;
+  final String title2;
+  final String title3;
   final String project1;
   final String project2;
   final String project3;
@@ -26,6 +29,9 @@ class HomeScreenDataModel {
       this.characterPortraitAsset,
       this.intro1,
       this.intro2,
+      this.title1,
+      this.title2,
+      this.title3,
       this.project1,
       this.project2,
       this.project3,
@@ -40,6 +46,9 @@ class HomeScreenDataModel {
         characterPortraitAsset: json['character_portrait_asset'],
         intro1: json['intro1'],
         intro2: json['intro2'],
+        title1: json["title1"],
+        title2: json["title2"],
+        title3: json["title3"],
         project1: json['project1'],
         project2: json['project2'],
         project3: json['project3'],
