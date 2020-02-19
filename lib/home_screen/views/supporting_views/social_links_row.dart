@@ -1,6 +1,9 @@
+import 'package:findjoy/home_screen/view_model/social_links_row_vm.dart';
 import 'package:flutter/material.dart';
 
 class SocialLinksRow extends StatelessWidget {
+  final SocialLinksRowVM vm = SocialLinksRowVM();
+
   @override
   Widget build(BuildContext context) {
     ///TODO: Add gesture recognizers
