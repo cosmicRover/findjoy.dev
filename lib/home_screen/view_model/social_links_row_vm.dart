@@ -1,11 +1,16 @@
-class SocialLinksRowVM {
-  ///TODO get view model to work
+import 'package:flutter/cupertino.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-  void launchSite(String url) {
-    _launchSite(url);
+class SocialLinksRowViewModel {
+  void _launchUrl(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      debugPrint("Trouble launching $url");
+    }
   }
 
-  void _launchSite(String _url) {
-    ///TODO launch url using url launcher package
+  void executeLaunch(String url) {
+    _launchUrl(url);
   }
 }
