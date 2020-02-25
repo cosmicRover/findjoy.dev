@@ -1,10 +1,12 @@
 import 'package:findjoy/app_constants/colors.dart';
+import 'package:findjoy/home_screen/view_models/link_button_view_model.dart';
 import 'package:flutter/material.dart';
 
 class LinkButton extends StatelessWidget {
   final Color _containerColor;
+  final String _linkUrl;
 
-  const LinkButton(this._containerColor);
+  const LinkButton(this._containerColor, this._linkUrl);
 
   Widget _button(Color color) {
     if (color == AppColors().joyBlue) {
@@ -26,12 +28,12 @@ class LinkButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final LinkButtonViewModel _viewModel = LinkButtonViewModel();
+
     return Padding(
         padding: const EdgeInsets.all(8.0),
         child: GestureDetector(
             child: _button(_containerColor),
-            onTap: () =>
-                print("calling github link") //TODO add launch function on VM,
-            ));
+            onTap: () => _viewModel.executeLaunch(_linkUrl)));
   }
 }

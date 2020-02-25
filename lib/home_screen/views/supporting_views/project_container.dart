@@ -9,9 +9,10 @@ class ProjectContainer extends StatelessWidget {
   final Color _containerColor;
   final Color _textColor;
   final double _imageHeight;
+  final String _linkUrl;
 
   const ProjectContainer(this._imagePath, this._text, this._title,
-      this._containerColor, this._textColor, this._imageHeight);
+      this._containerColor, this._textColor, this._imageHeight, this._linkUrl);
 
   @override
   Widget build(BuildContext context) {
@@ -26,8 +27,9 @@ class ProjectContainer extends StatelessWidget {
             child: Column(
               children: <Widget>[
                 CustomTextWidget(_title, 36.0, _textColor),
-                Image.network("$_imagePath",
-                height: _imageHeight,
+                Image.network(
+                  "$_imagePath",
+                  height: _imageHeight,
                   fit: BoxFit.contain,
                 ),
                 SizedBox(
@@ -37,7 +39,7 @@ class ProjectContainer extends StatelessWidget {
                   width: 570,
                   child: CustomTextWidget(_text, 24.0, _textColor),
                 ),
-                LinkButton(_containerColor)
+                LinkButton(_containerColor, _linkUrl)
               ],
             ),
           ),

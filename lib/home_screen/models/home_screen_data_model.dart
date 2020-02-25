@@ -20,6 +20,9 @@ class HomeScreenDataModel {
   final String project1;
   final String project2;
   final String project3;
+  final String project1Link;
+  final String project2Link;
+  final String project3Link;
   final String project1AssetPath;
   final String project2AssetPath;
   final String project3AssetPath;
@@ -35,6 +38,9 @@ class HomeScreenDataModel {
       this.project1,
       this.project2,
       this.project3,
+      this.project1Link,
+      this.project2Link,
+      this.project3Link,
       this.project1AssetPath,
       this.project2AssetPath,
       this.project3AssetPath});
@@ -52,6 +58,9 @@ class HomeScreenDataModel {
         project1: json['project1'],
         project2: json['project2'],
         project3: json['project3'],
+        project1Link: json["project1_link"],
+        project2Link: json["project2_link"],
+        project3Link: json["project3_link"],
         project1AssetPath: json['project1_asset_path'],
         project2AssetPath: json['project2_asset_path'],
         project3AssetPath: json['project3_asset_path']);

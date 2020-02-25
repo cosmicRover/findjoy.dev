@@ -1,10 +1,8 @@
-import 'package:findjoy/home_screen/model/social_urls.dart';
-import 'package:findjoy/home_screen/view_model/social_links_row_vm.dart';
+import 'package:findjoy/home_screen/view_models/social_links_row_vm.dart';
 import 'package:flutter/material.dart';
 
 class SocialLinksRow extends StatelessWidget {
   final SocialLinksRowViewModel _viewModel = SocialLinksRowViewModel();
-  final Urls _urls = Urls();
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +14,7 @@ class SocialLinksRow extends StatelessWidget {
             "assets/pics/git.png",
             height: 50.0,
           ),
-          onTap: () => _viewModel.executeLaunch(_urls.githubUrl),
+          onTap: () => _viewModel.executeLaunch("git"),
         ),
         SizedBox(
           width: 10.0,
@@ -26,7 +24,7 @@ class SocialLinksRow extends StatelessWidget {
             "assets/pics/in.png",
             height: 50.0,
           ),
-          onTap: () => _viewModel.executeLaunch(_urls.linkedInUrl),
+          onTap: () => _viewModel.executeLaunch("in"),
         ),
         SizedBox(
           width: 3.0,
