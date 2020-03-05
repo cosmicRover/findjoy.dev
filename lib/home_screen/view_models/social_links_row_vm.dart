@@ -19,6 +19,8 @@ class SocialLinksRowViewModel {
         return _launchUrl(_urls.githubUrl);
       case "in":
         return _launchUrl(_urls.linkedInUrl);
+      case "res":
+        return _launchUrl(_urls.resumeUrl);
     }
   }
 }

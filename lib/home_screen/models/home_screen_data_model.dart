@@ -1,14 +1,3 @@
-//"character_portrait_background_asset": "assets/pics/wave.png",
-//"character_portrait_asset": "assets/pics/joy.png",
-//"intro1": "But first, introductions are in order!",
-//"intro2": "Hello, my name is Joy Paul.",
-//"project1": "Project 1 text",
-//"project2": "Project 2 text",
-//"project3": "Project 3 text",
-//"project1_asset_path": "",
-//"project2_asset_path": "",
-//"project3_asset_path": ""
-
 class HomeScreenDataModel {
   final String characterPortraitBackgroundAsset;
   final String characterPortraitAsset;

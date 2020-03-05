@@ -1,5 +1,4 @@
 import 'package:findjoy/app_constants/colors.dart';
-import 'package:findjoy/home_screen/models/home_screen_data_model.dart';
 import 'package:findjoy/home_screen/views/supporting_views/project_container.dart';
 import 'package:flutter/material.dart';
 

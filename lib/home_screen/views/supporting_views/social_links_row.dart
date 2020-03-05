@@ -29,9 +29,12 @@ class SocialLinksRow extends StatelessWidget {
         SizedBox(
           width: 3.0,
         ),
-        Image.asset(
-          "assets/pics/doc.png",
-          height: 50.0,
+        GestureDetector(
+          child: Image.asset(
+            "assets/pics/doc.png",
+            height: 50.0,
+          ),
+          onTap: () => _viewModel.executeLaunch("res"),
         )
       ],
     );
