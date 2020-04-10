@@ -47,13 +47,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   350.0,
                   snapshot.data.project2Link),
               ProjectContainer(
-                  "${snapshot.data.project1AssetPath}",
-                  "${snapshot.data.project1}",
-                  snapshot.data.title1,
+                  "${snapshot.data.project4AssetPath}",
+                  "${snapshot.data.project4}",
+                  snapshot.data.title4,
                   _colors.joyWhite,
                   _colors.joyBlue,
                   350,
-                  snapshot.data.project1Link),
+                  snapshot.data.project4Link),
               ProjectContainer(
                   "${snapshot.data.project3AssetPath}",
                   "${snapshot.data.project3}",
@@ -61,7 +61,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   _colors.joyBlue,
                   _colors.joyWhite,
                   350,
-                  snapshot.data.project3Link)
+                  snapshot.data.project3Link),
+              ProjectContainer(
+                  "${snapshot.data.project1AssetPath}",
+                  "${snapshot.data.project1}",
+                  snapshot.data.title1,
+                  _colors.joyWhite,
+                  _colors.joyBlue,
+                  350,
+                  snapshot.data.project1Link),
             ],
           );
         }
