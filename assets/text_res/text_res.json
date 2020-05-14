@@ -3,17 +3,17 @@
   "character_portrait_asset": "assets/pics/joy.png",
 
   "intro1": "Hello!",
-  "intro2": "My name is Joy Paul, and I'm a CS graduate student at Queens College. I love building software and I am experienced in flutter, swift, python, and kotlin. Listed below are some of my notable works.",
+  "intro2": "My name is Joy Paul, and I'm a CS student at Queens College. I love building software and I am experienced in flutter, swift, python, and kotlin. Listed below are some of my notable works.",
 
   "title1": "Orbis",
   "title2": "Litterly",
   "title3": "Yime",
   "title4": "Feathers",
 
-  "project1": "This is Orbis clock face, it is a simple clock face inspired by our very own solar system. This clock face was created for the flutter clock challenge.",
-  "project2": "This is Litterly, it is an iOS app that lets people come together as a community, and clean up their environments through a gamified points based system. Litterly was awarded #1 app by J.P. Morgan and Clearpool for being the most innovative and impactful MVP.",
-  "project3": "This is Yime, my first ever app. Yime lets you see when your friends are free to hang out throughout a particular week. Yime was accepted into YCombinator's famous startup program in 2018, and was published on GooglePlay.",
-  "project4": "This is Feathers, it is a cross-platform mobile app that lets users identify, learn, and track birds species around them. Feathers had received the sustainability track award from a panel consisted of 15 fortune 500 judges, during the HackBrooklyn-2020 event.",
+  "project1": "This is Orbis clock face, it is a simple clock face inspired by our very own solar system. Orbis was created for the flutter clock challenge.",
+  "project2": "Litterly is an iOS app that lets people come together as a community, and clean up their environments through a gamified points based system. Litterly was awarded #1 app by J.P. Morgan and Clearpool for being the most innovative and impactful MVP.",
+  "project3": "Yime lets you see when your friends are free to hang out throughout a particular week. Yime was accepted into YCombinator's famous startup program in 2018, and was published on GooglePlay.",
+  "project4": "Feathers is a cross-platform mobile app that lets users identify, learn, and track birds species around them. Feathers has received the sustainability track award from a panel consisted of 15 fortune 500 judges, during the HackBrooklyn-2020 event.",
 
   "project1_link": "https://github.com/cosmicRover/orbis_clock",
   "project2_link": "https://github.com/cosmicRover/Litterly",
