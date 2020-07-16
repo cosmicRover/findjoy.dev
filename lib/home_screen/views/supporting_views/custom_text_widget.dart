@@ -12,7 +12,8 @@ class CustomTextWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Align(
       alignment: Alignment.centerLeft,
-      child: Text("$_text",
+      child: SelectableText("$_text",
+          toolbarOptions: ToolbarOptions(copy: true),
           style: GoogleFonts.oswald(
               textStyle: Theme.of(context).textTheme.headline4,
               fontSize: _size,
