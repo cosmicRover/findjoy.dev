@@ -70,6 +70,14 @@ class _HomeScreenState extends State<HomeScreen> {
                   _colors.joyBlue,
                   350,
                   snapshot.data.project1Link),
+              ProjectContainer(
+                  "${snapshot.data.project5AssetPath}",
+                  "${snapshot.data.project5}",
+                  snapshot.data.title5,
+                  _colors.joyBlue,
+                  _colors.joyWhite,
+                  350,
+                  snapshot.data.project5Link),
             ],
           );
         }

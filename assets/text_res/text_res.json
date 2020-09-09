@@ -3,25 +3,29 @@
   "character_portrait_asset": "assets/pics/joy.png",
 
   "intro1": "Hello!",
-  "intro2": "My name is Joy Paul, and I'm a CS student at Queens College. I love building software and I am experienced in flutter, swift, python, and kotlin. Listed below are some of my notable works.",
+  "intro2": "My name is Joy Paul, and I'm a CS student at Queens College. I love building software and I am experienced in iOS, Flutter, Python3, React.js, and kotlin. Listed below are some of my notable works.",
 
   "title1": "Orbis",
   "title2": "Litterly",
   "title3": "Yime",
   "title4": "Feathers",
+  "title5": "CTP-Portable",
 
   "project1": "This is Orbis clock face, it is a simple clock face inspired by our very own solar system. Orbis was created for the flutter clock challenge.",
   "project2": "Litterly is an iOS app that lets people come together as a community, and clean up their environments through a gamified points based system. Litterly was awarded #1 app by J.P. Morgan and Clearpool for being the most innovative and impactful MVP.",
   "project3": "Yime lets you see when your friends are free to hang out throughout a particular week. Yime was accepted into YCombinator's famous startup program in 2018, and was published on GooglePlay.",
   "project4": "Feathers is a cross-platform mobile app that lets users identify, learn, and track birds species around them. Feathers has received the sustainability track award from a panel consisted of 15 fortune 500 judges, during the HackBrooklyn-2020 event.",
+  "project5": "A cross platform mobile application that allows CTP fellows to keeps track of their assignments, sessions, study groups, and communicate with mentors. CTP-Portable has won the Student's Choice award during the CTP Home Hacks even in August 2020.",
 
   "project1_link": "https://github.com/cosmicRover/orbis_clock",
   "project2_link": "https://github.com/cosmicRover/Litterly",
   "project3_link": "https://github.com/cosmicRover/yime",
   "project4_link": "https://github.com/cosmicRover/feathers",
+  "project5_link": "https://github.com/cosmicRover/CTP-Portable",
 
   "project1_asset_path": "https://media.giphy.com/media/WQrYNeoz2Xblxti9pL/giphy.gif",
   "project2_asset_path": "https://media.giphy.com/media/jsNe2E606Iq1YUkvNB/giphy.gif",
   "project3_asset_path": "https://media.giphy.com/media/fUwolhuw6vjhfA1w0V/giphy.gif",
-  "project4_asset_path": "https://media.giphy.com/media/YP78eVJJvQsyb8ACYR/giphy.gif"
+  "project4_asset_path": "https://media.giphy.com/media/YP78eVJJvQsyb8ACYR/giphy.gif",
+  "project5_asset_path": "https://media.giphy.com/media/keUxInQC9hmhWKkrtv/giphy.gif"
 }
