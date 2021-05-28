@@ -9,7 +9,7 @@ class LinkButton extends StatelessWidget {
   const LinkButton(this._containerColor, this._linkUrl);
 
   Widget _button(Color color) {
-    if (color == AppColors().joyBlue) {
+    if (color == AppColors().darkBlue) {
       return Container(
         child: Image.asset(
           "assets/pics/git_link_white.png",

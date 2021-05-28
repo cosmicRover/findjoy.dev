@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-          canvasColor: _colors.joyWhite,
+          canvasColor: _colors.white,
 
           ///TODO: download font into asset folder
           textTheme: TextTheme(
